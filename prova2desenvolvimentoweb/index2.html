@@ -7,24 +7,16 @@
     <link rel="stylesheet" href="css/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="javascript/script2.js" defer></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https: //fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header id="header">
         <div class="container">
             <div class="flex">
-
-                
                 <i class="fa-solid fa-guitar" id="nav_logo">JAZZ</i>
-            <div class="input">
-             
-               
-            </div>
-
                 <nav>
                     <ul>
                         <li><a href="#">HISTORIA</a></li>
@@ -33,17 +25,14 @@
                         <li><a href="#">REGISTRE-SE</a></li>
                     </ul>
                 </nav>
-            <div class="btn-contato"><a href="#"><button>CONTATO</button></a></div>
+                <div class="btn-contato"><a href="#"><button>CONTATO</button></a></div>
             </div>
-
         </div>
     </header>
     <section class="banner1">
         <h1 class="titulo">HISTORIA DO <span>JAZZ</span></h1>
         <div class="conteudo">
-            <p>A história do jazz é rica e diversificada, atravessando mais de um século e envolvendo a evolução de diversos estilos e influências culturais. Aqui está uma visão geral dos principais períodos e desenvolvimentos na história do jazz:
-                <br>
-                Origens (Final do século XIX - Início do século XX)
+            <p> Origens (Final do século XIX - Início do século XX)
                 O jazz surgiu no final do século XIX e início do século XX nos Estados Unidos, particularmente em Nova Orleans, uma cidade conhecida por sua diversidade cultural. Suas raízes podem ser rastreadas até as tradições musicais africanas, europeias e afro-americanas, incluindo:
                 <br>
                 Blues: Uma forma musical caracterizada por progressões de acordes simples e expressões emotivas.
@@ -71,31 +60,53 @@
 
 
         </div>
+    </section></p>
+        </div>
     </section>
-<div class="interface2">
-    <section class="banner2">
-        <div class="elementos2">
-            <div class="conteudo2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis consequuntur aliquid.  Facere dolorum praesentium fugit error est deleniti repellendus provident quae labore, expedita neque? Qui, deleniti totam? Voluptates, quas.</p>
+    <div class="interface2">
+        <section class="banner2">
+            <div class="elementos2">
+                <div class="conteudo2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                </div>
+                <h1 class="titulo2">OS MAIORES <br> <span class="artistas">ARTISTAS</span></h1>
             </div>
-            <h1 class="titulo2">OS MAIORES <br> <span class="artistas">ARTISTAS</span>   </h1>
-          
-
-           
-
-        </div>
-
-    </section>
-
-    <section class="banner3">
-        <div class="elementos2">
-            
-        </div>
-
-
-
-
-    </section>
-</div>
+        </section>
+        <section class="banner3">
+            <div class="elementos3">
+                <div class="container2">
+                    <div class="header2">
+                        <span>ADICIONAR ARTISTAS FAVORITOS</span>
+                        <button onclick="openModal()" id="new">Adicionar</button>
+                    </div>
+                    <div class="divTable">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th class="acao">Editar</th>
+                                    <th class="acao">Excluir</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>    
+                    <div class="modal-container">
+                        <div class="modal">
+                            <form action="">
+                                <label for="m-nome">Nome</label>
+                                <input id="m-nome" type="text" required>
+                                <label for="m-descricao">Descrição</label>
+                                <input id="m-descricao" type="text" required>
+                                <button id="btnSalvar">Salvar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
